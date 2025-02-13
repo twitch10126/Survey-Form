@@ -1,0 +1,111 @@
+body {
+
+    background-color: rgb(22, 22, 73);
+    color: #f5f6f7;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: serif;
+    font-size: 16px;
+
+}
+
+h1,
+p {
+
+    margin: 1em auto;
+    text-align: center;
+
+}
+
+p {
+
+    font-size: 17px;
+
+}
+
+form {
+
+    width: 1em auto;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(25, 25, 85), rgba(255, 255, 255, 25%), rgb(25, 25, 85));
+    padding-bottom: 1em;
+    border: solid white;
+
+
+}
+
+fieldset {
+
+    border: none;
+    padding: 1rem;
+
+}
+
+label {
+
+    display: block;
+    margin: 1.5rem 0;
+
+}
+
+button {
+
+    width: 40%;
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 20px;
+    background-color: rgb(25, 25, 85);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+
+}
+
+fieldset:last-of-type {
+
+    border-bottom: 3px solid rgb(0, 0, 0);
+
+}
+
+fieldset:first-of-type {
+
+    border-top: 3px solid rgb(0, 0, 0);
+
+}
+
+textarea {
+
+    background-color: rgb(25, 25, 85);
+    border: 1px solid rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+}
+
+input {
+
+    margin: 5px 0 0 0;
+    width: 100%;
+    min-height: 1em;
+    max-height: 2em;
+
+}
+
+.inline {
+
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+
+}
+
+#fields {
+
+    text-align: left;
+
+}
